@@ -1,0 +1,50 @@
+<div
+	ng-app="app"
+	ng-controller="ImageFallbackController"
+	class="clearfix"
+	style="padding: 10px; margin-bottom: 20px; background: #2e7bcf url(demo/images/header-bg.jpg) ; border-radius: 4px">
+
+	<style>
+		/* MISC */
+		.clearfix:after {
+			display: block;
+			height: 0;
+			clear: both;
+			visibility: hidden;
+			content: '.';
+		}
+
+		.clearfix {
+			display: inline-block;
+		}
+
+		* html .clearfix {
+			height: 1%;
+		}
+
+		.clearfix {
+			display: block;
+		}
+	</style>
+
+	<div
+		style="width: 100px; float: left;margin-right: 30px;">
+		<div style="height: 100%; padding: 5px; border: 2px solid #E4E4E4; border-radius: 4px">
+			<img style="display:block;border-radius: 4px;"
+			     img-src="{{img}}"
+			     fallback-src="{{img_initial}}"
+			     loading-src="{{img_loading}}"
+			     alt="">
+		</div>
+	</div>
+	<div>
+					<textarea
+						ng-model="newImageSource"
+						cols="50" rows="3"
+						style="display: block"></textarea>
+		<button
+			ng-click="switchImage()"
+			style="margin-top: 10px">Update Image
+		</button>
+	</div>
+</div>
