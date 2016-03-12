@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Angular-img-src by rihdus-angular</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Angular-img-src</h1>
+        <p>Alternative to using ng-src with options to provide alternative image placeholders during image loading and image missing or load error.</p>
+
+        <p class="view"><a href="https://github.com/rihdus-angular/angular-img-src">View the Project on GitHub <small>rihdus-angular/angular-img-src</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/rihdus-angular/angular-img-src/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/rihdus-angular/angular-img-src/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/rihdus-angular/angular-img-src">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
+<a id="angular-image-src" class="anchor" href="#angular-image-src" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Angular Image Src</h1>
+
+<p>Angular directive that loads image src tags for <code>&lt;img&gt;</code> elements and shows placeholder using <code>fallback-src</code>
+image for missing or not-found images, and loading images using <code>loading-src</code> while the actual image is 
+being loaded.</p>
+
+<p>An alternative to using angular <code>ng-src</code>.</p>
+
+<h2>
+<a id="installation" class="anchor" href="#installation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Installation</h2>
+
+<ol>
+<li>Download and add script tag.
+<code>&lt;script src="lib/angular-img-src.js"&gt;&lt;/script&gt;</code>
+</li>
+</ol>
+
+<h2>
+<a id="usage" class="anchor" href="#usage" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Usage</h2>
+
+<p>Add <code>img-src</code> to an <code>&lt;img&gt;</code> element to load the src tag correctly.<br>
+<code>&lt;img img-src="{{'img.png'}}"&gt;</code></p>
+
+<p><strong>Optionally</strong>   </p>
+
+<ol>
+<li>Use <code>fallback-src</code> to show a placeholder image if the actual image is missing.<br>
+<code>&lt;img img-src="{{'img.png'}}" fallback-src="{{'fallback-img.png'}}&gt;</code><br>
+</li>
+<li>Use <code>loading-src</code> to show a loading image while the actual image is downloading.<br>
+<code>&lt;img img-src="{{'img.png'}}" fallback-src="{{'fallback-img.png'}}" loading-src="{{'fallback-img.png'}}"&gt;</code>
+</li>
+</ol>
+
+<h2>
+<a id="icons-license" class="anchor" href="#icons-license" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Icons license</h2>
+
+<p>Icons are provided from <a href="http://icomoon.io/">http://icomoon.io/</a> under the GNU General Public License v3.0<br>
+<a href="http://www.gnu.org/licenses/gpl.html">http://www.gnu.org/licenses/gpl.html</a></p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/rihdus-angular">rihdus-angular</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
