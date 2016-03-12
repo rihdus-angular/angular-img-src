@@ -1,0 +1,22 @@
+{
+  "name": "angular-img-src",
+  "description": "Alternative to using ng-src with options to provide alternative image placeholders during image loading and image missing or load error",
+  "main": "angular-img-src.js",
+  "authors": [
+    "rihdus"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "angularjs",
+    "javascript"
+  ],
+  "homepage": "https://github.com/rihdus-angular/angular-img-src",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
