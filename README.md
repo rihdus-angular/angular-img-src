@@ -5,10 +5,10 @@ Angular directive that loads image src tags for `<img>` elements and shows place
 image for missing or not-found images, and loading images using `loading-src` while the actual image is 
 being loaded.
 
-An alternative to using angular `ng-src`.
+Checkout working demo at http://rihdus-angular.github.io/angular-img-src/.
 
 ## Installation
-1. Download and add script tag.
+Download and add script tag.  
 `<script src="lib/angular-img-src.js"></script>`
 
 ## Usage
