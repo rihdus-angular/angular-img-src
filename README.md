@@ -8,8 +8,13 @@ being loaded.
 Checkout working demo at http://rihdus-angular.github.io/angular-img-src/.
 
 ## Installation
-Download and add script tag.  
-`<script src="lib/angular-img-src.js"></script>`
+**Bower**  
+
+	`bower install angular-img-src`
+
+Add script tag.  
+
+	`<script src="lib/angular-img-src.js"></script>`
 
 ## Usage
 Add `img-src` to an `<img>` element to load the src tag correctly.  

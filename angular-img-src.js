@@ -2,7 +2,7 @@
  * Angular Image Src
  * Copyright (c) [2016] [Sudhir Meher]
  * License: MIT
- * https://github.com/rihdus-angular/angular-img-fallback
+ * https://github.com/rihdus-angular/angular-img-src
  */
 
 (function () {
